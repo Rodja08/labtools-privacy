@@ -1,3 +1,11 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="Privacy Policy for the LabTools laboratory calculation app by Brainstormer Labs.">
+<meta name="theme-color" content="#F2F5F8" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0F1E30" media="(prefers-color-scheme: dark)">
 <title>LabTools — Privacy Policy</title>
 <style>
   @font-face {
@@ -9,79 +17,80 @@
   }
 
   :root {
-    --bg: #FAFAF8;
+    color-scheme: light dark;
+    --bg: #F2F5F8;
     --surface: #FFFFFF;
-    --surface-sunken: #F1EEE7;
-    --text: #1A1A1A;
-    --text-muted: #6B6560;
-    --text-faint: #948D85;
-    --border: #E4DFD6;
-    --accent: #C64229;
-    --accent-ink: #8F2E1B;
-    --ink: #16324A;
-    --ink-soft: #2E4D68;
-    --callout-bg: #FBF1EC;
-    --table-stripe: #F5F2EB;
-    --focus-ring: #16324A;
-    --mark-from: #16324A;
-    --mark-to: #C64229;
+    --surface-sunken: #E8EEF5;
+    --text: #132338;
+    --text-muted: #52667D;
+    --text-faint: #73859A;
+    --border: #CDD8E5;
+    --accent: #C9A84C;
+    --accent-ink: #795E16;
+    --ink: #0F1E30;
+    --ink-soft: #28435F;
+    --callout-bg: #F7F4E9;
+    --table-stripe: #F5F8FB;
+    --focus-ring: #A8892A;
+    --mark-from: #0F1E30;
+    --mark-to: #223753;
   }
 
   @media (prefers-color-scheme: dark) {
     :root {
       --bg: #0F1E30;
-      --surface: #16273C;
-      --surface-sunken: #14233A;
+      --surface: #223753;
+      --surface-sunken: #1C2E45;
       --text: #E8EFF8;
       --text-muted: #A9BAD0;
-      --text-faint: #7E93AE;
+      --text-faint: #8AAACB;
       --border: #2A3F5A;
       --accent: #C9A84C;
       --accent-ink: #E4CA83;
       --ink: #C9A84C;
       --ink-soft: #DCC584;
       --callout-bg: #1C2E45;
-      --table-stripe: #182A40;
+      --table-stripe: #1E334D;
       --focus-ring: #C9A84C;
-      --mark-from: #7A5D28;
-      --mark-to: #C9A84C;
+      --mark-from: #0F1E30;
+      --mark-to: #223753;
     }
   }
   :root[data-theme="dark"] {
     --bg: #0F1E30;
-    --surface: #16273C;
-    --surface-sunken: #14233A;
+    --surface: #223753;
+    --surface-sunken: #1C2E45;
     --text: #E8EFF8;
     --text-muted: #A9BAD0;
-    --text-faint: #7E93AE;
+    --text-faint: #8AAACB;
     --border: #2A3F5A;
     --accent: #C9A84C;
     --accent-ink: #E4CA83;
     --ink: #C9A84C;
     --ink-soft: #DCC584;
     --callout-bg: #1C2E45;
-    --table-stripe: #182A40;
+    --table-stripe: #1E334D;
     --focus-ring: #C9A84C;
-    --mark-from: #7A5D28;
-    --mark-to: #C9A84C;
+    --mark-from: #0F1E30;
+    --mark-to: #223753;
   }
   :root[data-theme="light"] {
-    --bg: #FAFAF8;
+    --bg: #F2F5F8;
     --surface: #FFFFFF;
-    --surface-sunken: #F1EEE7;
-    --text: #1A1A1A;
-    --text-muted: #6B6560;
-    --text-faint: #948D85;
-    --border: #E4DFD6;
-    --accent: #C64229;
-    --accent-ink: #8F2E1B;
-    --ink: #16324A;
-    --ink-soft: #2E4D68;
-    --callout-bg: #FBF1EC;
-    --table-stripe: #F5F2EB;
-    --focus-ring: #16324A;
-    --mark-from: #16324A;
-    --mark-to: #C64229;
+    --surface-sunken: #E8EEF5;
+    --text: #132338;
+    --text-muted: #52667D;
+    --text-faint: #73859A;
+    --border: #CDD8E5;
+    --accent: #C9A84C;
+    --accent-ink: #795E16;
+    --ink: #0F1E30;
+    --ink-soft: #28435F;
+    --callout-bg: #F7F4E9;
+    --table-stripe: #F5F8FB;
+    --focus-ring: #A8892A;
+    --mark-from: #0F1E30;
+    --mark-to: #223753;
   }
 
   * { box-sizing: border-box; }
@@ -128,11 +137,13 @@
     height: 40px;
     border-radius: 9px;
     background: linear-gradient(155deg, var(--mark-from) 0%, var(--mark-to) 130%);
+    border: 1px solid var(--accent);
     display: flex;
     align-items: center;
     justify-content: center;
     flex-shrink: 0;
   }
+  ::selection { background: var(--accent); color: #0F1E30; }
   .mark svg { width: 20px; height: 20px; }
   .wordmark {
     font-family: "Cinzel", Georgia, serif;
@@ -319,6 +330,8 @@
     section.doc-section { scroll-behavior: smooth; }
   }
 </style>
+</head>
+<body>
 
 <div class="page">
 
@@ -335,7 +348,7 @@
     </div>
     <h1 class="doc-title">Privacy Policy</h1>
     <div class="meta-row">
-      <span>Effective: <strong>July 27, 2026</strong></span>
+      <span>Effective: <strong>September 1, 2026</strong></span>
       <span>App: <strong>LabTools</strong></span>
       <span>Publisher: <strong>Brainstormer Labs</strong></span>
     </div>
@@ -344,11 +357,12 @@
   <div class="tldr">
     <div class="tldr-label">In plain terms</div>
     <ul>
-      <li>LabTools has <strong>no account, no sign-up, and no backend server</strong>. There is nothing to log into and nothing we host that stores your data.</li>
+      <li>LabTools has <strong>no account and no sign-up</strong>. Your laboratory work is not stored in a LabTools cloud account.</li>
       <li>Everything you type into a calculator, save as a maintenance log, or set up in a PDF report template is stored <strong>only on your device</strong>.</li>
-      <li>The camera and photo library are used <strong>only</strong> for the Particle Counter and for attaching a logo to PDF reports — never uploaded anywhere by us.</li>
+      <li>Calculator inputs, results, formulas, notes, OCR text, photos, and search terms are <strong>never sent to product analytics</strong>.</li>
+      <li>The camera and photo library are used only for features you choose, such as local OCR, the Particle Counter, troubleshooting attachments, and a PDF report logo.</li>
       <li>If you subscribe to LabTools PRO, <strong>Google Play Billing</strong> and <strong>RevenueCat</strong> handle that transaction and receive the data described in <a href="#subscriptions">Section 4</a>.</li>
-      <li>We run no analytics SDK and no crash-reporting SDK. We don't know how you use the app beyond what's needed to run a subscription.</li>
+      <li>Optional product analytics is <strong>off by default</strong>. If you turn it on in Settings, limited anonymous/pseudonymous feature-use events are sent to PostHog EU Cloud as described in <a href="#analytics">Section 5</a>.</li>
     </ul>
   </div>
 
@@ -359,40 +373,43 @@
       <li><a href="#info-you-provide"><span class="num">2.</span> Information You Provide</a></li>
       <li><a href="#camera-photos"><span class="num">3.</span> Camera &amp; Photo Library</a></li>
       <li><a href="#subscriptions"><span class="num">4.</span> Subscriptions &amp; Purchases</a></li>
-      <li><a href="#how-we-use"><span class="num">5.</span> How Information Is Used</a></li>
-      <li><a href="#local-storage"><span class="num">6.</span> Local Storage &amp; Retention</a></li>
-      <li><a href="#notifications"><span class="num">7.</span> Notifications</a></li>
-      <li><a href="#third-party"><span class="num">8.</span> Third-Party Services</a></li>
-      <li><a href="#permissions"><span class="num">9.</span> App Permissions</a></li>
-      <li><a href="#children"><span class="num">10.</span> Children's Privacy</a></li>
-      <li><a href="#your-rights"><span class="num">11.</span> Your Rights &amp; Choices</a></li>
-      <li><a href="#security"><span class="num">12.</span> Data Security</a></li>
-      <li><a href="#international"><span class="num">13.</span> International Users</a></li>
-      <li><a href="#changes"><span class="num">14.</span> Changes to This Policy</a></li>
-      <li><a href="#contact"><span class="num">15.</span> Contact Us</a></li>
+      <li><a href="#analytics"><span class="num">5.</span> Optional Product Analytics</a></li>
+      <li><a href="#how-we-use"><span class="num">6.</span> How Information Is Used</a></li>
+      <li><a href="#local-storage"><span class="num">7.</span> Local Storage &amp; Retention</a></li>
+      <li><a href="#notifications"><span class="num">8.</span> Notifications</a></li>
+      <li><a href="#third-party"><span class="num">9.</span> Third-Party Services</a></li>
+      <li><a href="#permissions"><span class="num">10.</span> App Permissions</a></li>
+      <li><a href="#children"><span class="num">11.</span> Children's Privacy</a></li>
+      <li><a href="#your-rights"><span class="num">12.</span> Your Rights &amp; Choices</a></li>
+      <li><a href="#security"><span class="num">13.</span> Data Security</a></li>
+      <li><a href="#international"><span class="num">14.</span> International Users</a></li>
+      <li><a href="#changes"><span class="num">15.</span> Changes to This Policy</a></li>
+      <li><a href="#contact"><span class="num">16.</span> Contact Us</a></li>
     </ol>
   </nav>
 
   <section class="doc-section" id="overview">
     <div class="sec-head"><span class="sec-num">01</span><h2>Overview</h2></div>
     <p>LabTools is a laboratory calculation toolkit — dilution and molarity calculators, calibration and validation statistics, a periodic table, a particle counter, and related utilities for analytical chemistry work. It is built and published by <strong>Brainstormer Labs</strong> ("we," "us").</p>
-    <p>This policy explains what information LabTools collects, why, and who else — if anyone — sees it. The short version is that the app was built to run entirely on your device: there is no server we operate that your calculator data passes through. The only outside parties involved are the ones needed to process an optional PRO subscription, described in <a href="#subscriptions">Section 4</a>.</p>
+    <p>This policy explains what information LabTools processes, why, and which service providers are involved. The app is designed so that your calculator data and laboratory records are processed locally: they do not pass through a server operated by us and are not included in analytics events. Limited network services are used for optional subscriptions, optional product analytics, and loading optional online content, as described below.</p>
   </section>
 
   <section class="doc-section" id="info-you-provide">
     <div class="sec-head"><span class="sec-num">02</span><h2>Information You Provide</h2></div>
-    <p>LabTools does not require registration, an email address, or any personal identifier to use any calculator. Information you type into the app — dilution values, calibration data points, an operator name or Report ID on a PDF template, a maintenance log entry, a note attached to an ICP-MS interference lookup — is used solely to run that calculation or build that document, and is saved only in the app's local storage on your device (see <a href="#local-storage">Section 6</a>). None of it is transmitted to us; we have no way to see it.</p>
+    <p>LabTools does not require registration, an email address, or any personal identifier to use any calculator. Information you type into the app — such as dilution values, calibration data points, an operator name or Report ID, a maintenance log entry, QC data, or troubleshooting notes — is used solely to run the requested tool or build the document, and is saved only in the app's local storage on your device (see <a href="#local-storage">Section 7</a>). None of this laboratory content is transmitted to us or to PostHog.</p>
     <p class="muted">If you choose to export a report as PDF or Excel and share it yourself (email, messaging app, cloud drive), that sharing happens through your device's native share sheet and is governed by the policy of whichever app or service you send it to — not by us.</p>
   </section>
 
   <section class="doc-section" id="camera-photos">
     <div class="sec-head"><span class="sec-num">03</span><h2>Camera &amp; Photo Library</h2></div>
-    <p>LabTools requests camera and photo-library access for two specific, opt-in features only:</p>
+    <p>LabTools requests camera or photo-library access only when you choose a feature that needs it:</p>
     <ul>
       <li><strong>Particle Counter</strong> — lets you photograph a Petri dish or hemocytometer slide so the app can help you count particles or colonies. The photo is analyzed and displayed on your device; it is not uploaded anywhere.</li>
+      <li><strong>OCR-assisted input</strong> — lets you scan numbers or labels. Recognition runs locally on your device; the image and recognized text are not sent to us or to product analytics.</li>
       <li><strong>PDF Report Template</strong> — lets you attach a logo image (from your camera or photo library) to the header of your generated PDF reports.</li>
+      <li><strong>Troubleshooting support</strong> — lets you optionally attach a photo to an email you choose to send. The attachment leaves your device only when you send that email through your selected email provider.</li>
     </ul>
-    <p>In both cases, the image stays on your device and inside the report you generate. We never receive a copy, and the app contains no code path that uploads photos to a server.</p>
+    <p>LabTools does not automatically upload camera or library images to a LabTools server or to PostHog. Reports or support emails that you intentionally share are handled by the external app or service you select.</p>
   </section>
 
   <section class="doc-section" id="subscriptions">
@@ -407,38 +424,56 @@
     <p>We do not receive your payment details (card number, billing address) — those are handled directly by Google Play. See <a href="https://www.revenuecat.com/privacy" target="_blank" rel="noopener noreferrer">RevenueCat's Privacy Policy</a> and <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google's Privacy Policy</a> for details on their handling of this data.</p>
   </section>
 
+  <section class="doc-section" id="analytics">
+    <div class="sec-head"><span class="sec-num">05</span><h2>Optional Product Analytics</h2></div>
+    <p>LabTools includes optional product analytics powered by <strong>PostHog</strong>. Analytics is <strong>off by default</strong> on a new installation. No analytics event is sent unless you intentionally enable <strong>Help improve LabTools</strong> in Settings → Data. Your consent is the basis for this processing, and you can withdraw it at any time by turning the same setting off.</p>
+    <p>If enabled, LabTools may send the following limited events:</p>
+    <ul>
+      <li>that the app, a calculator, a feature, the history screen, or the paywall was opened;</li>
+      <li>that a calculation was completed or an archive record was saved, together with the calculator identifier;</li>
+      <li>the access category involved (free, trial, PRO, or locked);</li>
+      <li>a subscription plan-selection or purchase-completion event; and</li>
+      <li>whether an in-app search returned any results — <strong>not</strong> the search text.</li>
+    </ul>
+    <p>These events may include SDK metadata needed to count anonymous installations and sessions, such as a randomly generated distinct identifier, session identifier, app version/build, app package, operating-system name/version, SDK version, and general device type.</p>
+    <p><strong>Analytics never includes calculator inputs or results, formulas, report content, operator or instrument names, maintenance/QC records, notes, OCR text, search terms, images, contact details, or precise location.</strong> Session replay, surveys, feature flags, person profiles, advertising features, and automatic app-lifecycle capture are disabled. GeoIP enrichment is disabled; as with any internet request, PostHog may still receive an IP address at the network transport layer.</p>
+    <p>Events are sent to <strong>PostHog EU Cloud</strong>. We use them only to understand aggregate feature use and improve LabTools, and retain them only for as long as reasonably necessary for those purposes under our PostHog project-retention settings. We do not sell analytics data or use it for advertising. See <a href="https://posthog.com/privacy" target="_blank" rel="noopener noreferrer">PostHog's Privacy Policy</a>.</p>
+  </section>
+
   <section class="doc-section" id="how-we-use">
-    <div class="sec-head"><span class="sec-num">05</span><h2>How Information Is Used</h2></div>
+    <div class="sec-head"><span class="sec-num">06</span><h2>How Information Is Used</h2></div>
     <p>Everything LabTools does with information happens for one of these reasons:</p>
     <ul>
       <li>to run the calculation, chart, or conversion you asked for;</li>
       <li>to remember your inputs, settings, and PDF template preferences between sessions;</li>
       <li>to generate the PDF or Excel report you export;</li>
       <li>to check whether your 7-day trial or PRO subscription is active;</li>
-      <li>to schedule the local maintenance reminders you set up.</li>
+      <li>to schedule the local maintenance reminders you set up; and</li>
+      <li>if you opt in, to understand aggregate feature usage and improve the app.</li>
     </ul>
     <p>We do not use your information for advertising, we do not build behavioral profiles, and we do not sell or rent any information to third parties.</p>
   </section>
 
   <section class="doc-section" id="local-storage">
-    <div class="sec-head"><span class="sec-num">06</span><h2>Local Storage &amp; Retention</h2></div>
-    <p>LabTools stores app data — language and theme preference, calculator inputs, saved validation/exact-mass records, PDF template settings, maintenance logs — using your device's local app storage (AsyncStorage). This data:</p>
+    <div class="sec-head"><span class="sec-num">07</span><h2>Local Storage &amp; Retention</h2></div>
+    <p>LabTools stores app data — language and theme preferences, calculator inputs, saved records, QC profiles, PDF template settings, maintenance logs, and your analytics choice — in local app storage on your device. This laboratory and settings data:</p>
     <ul>
       <li>never leaves your device under normal use;</li>
       <li>is not backed up to any server we control;</li>
-      <li>is removed automatically if you clear the app's storage or uninstall LabTools.</li>
+      <li>is removed if you clear LabTools storage in Android Settings or uninstall the app.</li>
     </ul>
-    <p>There is currently no "export my data" request to make to us, because we do not hold a copy of it in the first place — it already lives entirely on your device.</p>
+    <p>The in-app <strong>Clear Saved Data</strong> action removes saved records, settings, and the analytics preference, returning analytics to off. It intentionally preserves only a local first-install/trial marker so that clearing data cannot restart the free-trial period. This marker is not used for advertising or analytics.</p>
+    <p>We do not hold a server copy of your calculator or laboratory records. Analytics and subscription-provider data are separate and are described in Sections 4, 5, and 9.</p>
   </section>
 
   <section class="doc-section" id="notifications">
-    <div class="sec-head"><span class="sec-num">07</span><h2>Notifications</h2></div>
+    <div class="sec-head"><span class="sec-num">08</span><h2>Notifications</h2></div>
     <p>The Maintenance Log feature can schedule local reminders (e.g., "Instrument service due") for tasks you set up. These notifications are scheduled and delivered entirely on your device using the operating system's local notification system — no push-notification server is involved, and no notification content is sent to us or anyone else.</p>
   </section>
 
   <section class="doc-section" id="third-party">
-    <div class="sec-head"><span class="sec-num">08</span><h2>Third-Party Services</h2></div>
-    <p>LabTools integrates with exactly two third-party services, both limited to subscription handling:</p>
+    <div class="sec-head"><span class="sec-num">09</span><h2>Third-Party Services</h2></div>
+    <p>LabTools uses the following service providers for limited, defined purposes:</p>
     <div class="tbl-wrap">
       <table class="data-tbl">
         <thead>
@@ -455,14 +490,24 @@
             <td>Verifies and syncs subscription/entitlement status</td>
             <td>Anonymous device ID, purchase/transaction metadata</td>
           </tr>
+          <tr>
+            <td>PostHog EU Cloud</td>
+            <td>Optional product analytics, only after opt-in</td>
+            <td>Allowlisted feature-use events, random distinct/session IDs, app/OS/device-type metadata; never calculator content</td>
+          </tr>
+          <tr>
+            <td>Google Cloud Storage</td>
+            <td>Loads optional 3D element models in the Periodic Table</td>
+            <td>Normal network-request data such as IP address and request metadata; no calculator or laboratory records</td>
+          </tr>
         </tbody>
       </table>
     </div>
-    <p class="muted">LabTools does not include any advertising SDK, analytics SDK, or crash-reporting SDK.</p>
+    <p class="muted">LabTools contains no advertising SDK and no crash-reporting SDK. Reference links that you choose to open are handled by your browser and are governed by the destination site's privacy policy.</p>
   </section>
 
   <section class="doc-section" id="permissions">
-    <div class="sec-head"><span class="sec-num">09</span><h2>App Permissions</h2></div>
+    <div class="sec-head"><span class="sec-num">10</span><h2>App Permissions</h2></div>
     <p>Android will ask for the following permissions the first time a relevant feature is used — never at install and never all at once:</p>
     <div class="tbl-wrap">
       <table class="data-tbl">
@@ -470,48 +515,52 @@
           <tr><th>Permission</th><th>Used for</th></tr>
         </thead>
         <tbody>
-          <tr><td>Camera</td><td>Particle Counter photo capture; optional PDF report logo</td></tr>
-          <tr><td>Photo Library</td><td>Choosing an existing photo for the Particle Counter or a PDF report logo</td></tr>
-          <tr><td>Notifications</td><td>Local maintenance-reminder alerts (see <a href="#notifications">Section 7</a>)</td></tr>
+          <tr><td>Camera</td><td>Particle Counter, local OCR scanning, and optional troubleshooting photos</td></tr>
+          <tr><td>Photo Library</td><td>Choosing an image for the Particle Counter, PDF report logo, or troubleshooting attachment</td></tr>
+          <tr><td>Notifications</td><td>Local maintenance-reminder alerts (see <a href="#notifications">Section 8</a>)</td></tr>
         </tbody>
       </table>
     </div>
     <p class="muted">You can grant or revoke any of these at any time from your device's Settings → Apps → LabTools → Permissions, without losing access to the rest of the app.</p>
+    <p class="muted">The app also uses ordinary network access for subscription verification, optional analytics, opening links, and loading optional 3D models. Android does not present network access as a runtime permission.</p>
   </section>
 
   <section class="doc-section" id="children">
-    <div class="sec-head"><span class="sec-num">10</span><h2>Children's Privacy</h2></div>
-    <p>LabTools is a professional/educational analytical-chemistry tool and is not directed at children under 13. We do not knowingly collect personal information from children. Since the app has no account system, no data is knowingly collected from anyone, of any age, beyond what is described in this policy.</p>
+    <div class="sec-head"><span class="sec-num">11</span><h2>Children's Privacy</h2></div>
+    <p>LabTools is a professional/educational laboratory tool and is not directed at children under 13. We do not knowingly collect personal information from children. The app has no account system, and optional analytics is off by default. If you believe a child has provided information through an enabled third-party service, contact us so we can assess and address the request.</p>
   </section>
 
   <section class="doc-section" id="your-rights">
-    <div class="sec-head"><span class="sec-num">11</span><h2>Your Rights &amp; Choices</h2></div>
-    <p>Because LabTools stores app data only on your device, you already hold most of the practical controls that data-protection laws (GDPR, CCPA and similar) are designed to guarantee:</p>
+    <div class="sec-head"><span class="sec-num">12</span><h2>Your Rights &amp; Choices</h2></div>
+    <p>Depending on your location, data-protection laws may provide rights to access, correct, delete, restrict, object to, or obtain a copy of personal data, and to withdraw consent. LabTools provides the following practical controls:</p>
     <ul>
       <li><strong>Access &amp; portability</strong> — your data is visible directly in the app that created it, and exportable any time via the app's own PDF/Excel export.</li>
       <li><strong>Deletion</strong> — uninstalling LabTools, or clearing its storage in Android Settings, permanently removes all locally stored data.</li>
+      <li><strong>Analytics choice</strong> — optional analytics is off by default. You can enable or disable it at any time under Settings → Data. Disabling it stops future analytics events; it does not retroactively delete events already sent.</li>
+      <li><strong>Analytics requests</strong> — contact us to request access to or deletion of analytics data. Because analytics uses a random identifier and no account, we may need information sufficient to locate the relevant record and may be unable to associate anonymous data with you.</li>
       <li><strong>Account deletion</strong> — since LabTools does not use user accounts or registration, there is no user account data to delete.</li>
-      <li><strong>Subscription data</strong> — to request access to or deletion of the data RevenueCat or Google hold about your subscription, contact them directly (links in <a href="#subscriptions">Section 4</a>) or reach out to us at the address in <a href="#contact">Section 15</a> and we will help route the request.</li>
+      <li><strong>Subscription data</strong> — to request access to or deletion of data RevenueCat or Google hold about your subscription, contact them directly (links in <a href="#subscriptions">Section 4</a>) or contact us using <a href="#contact">Section 16</a>.</li>
     </ul>
+    <p>You may also lodge a complaint with the data-protection authority in your country or region.</p>
   </section>
 
   <section class="doc-section" id="security">
-    <div class="sec-head"><span class="sec-num">12</span><h2>Data Security</h2></div>
-    <p>Because your calculator and report data is never transmitted off your device, the practical attack surface is your device itself — protect it the way you would any device holding files you care about (screen lock, OS updates, avoiding sideloaded apps from untrusted sources). Subscription and payment data is protected under Google Play Billing's and RevenueCat's own security programs, described in their respective privacy policies.</p>
+    <div class="sec-head"><span class="sec-num">13</span><h2>Data Security</h2></div>
+    <p>Your calculator and report data remains on your device unless you intentionally export or share it. Protect the device as you would any device holding laboratory files (for example, with a screen lock and current OS security updates). Network communications with Google Play, RevenueCat, PostHog, and online content hosts use encrypted HTTPS connections. No method of storage or transmission is completely risk-free.</p>
   </section>
 
   <section class="doc-section" id="international">
-    <div class="sec-head"><span class="sec-num">13</span><h2>International Users</h2></div>
-    <p>LabTools is available worldwide and is currently offered in English, German, Russian, and Chinese. Since there is no backend server, there is no cross-border transfer of your app data by us. Subscription data processed by Google Play Billing and RevenueCat may be transferred internationally under their own respective policies.</p>
+    <div class="sec-head"><span class="sec-num">14</span><h2>International Users</h2></div>
+    <p>LabTools is available worldwide and is offered in English, German, Russian, Chinese, Japanese, French, and Spanish. Calculator and laboratory records remain local unless you intentionally share them. If you opt in to analytics, events are sent to PostHog's EU Cloud environment. Google Play, RevenueCat, PostHog, and online content providers may process or transfer limited service data under their own policies and applicable transfer safeguards.</p>
   </section>
 
   <section class="doc-section" id="changes">
-    <div class="sec-head"><span class="sec-num">14</span><h2>Changes to This Policy</h2></div>
+    <div class="sec-head"><span class="sec-num">15</span><h2>Changes to This Policy</h2></div>
     <p>We may update this policy as LabTools evolves — for example, if a future feature introduces a new third-party service. We'll update the "Effective" date at the top of this page when we do. Material changes affecting how your information is handled will be called out clearly on this page rather than buried in a version bump.</p>
   </section>
 
   <section class="doc-section" id="contact">
-    <div class="sec-head"><span class="sec-num">15</span><h2>Contact Us</h2></div>
+    <div class="sec-head"><span class="sec-num">16</span><h2>Contact Us</h2></div>
     <p>Questions about this policy or how LabTools handles information can be sent to:</p>
     <p><strong>Brainstormer Labs</strong><br>
     <a href="mailto:brainstormer.labs@gmail.com">brainstormer.labs@gmail.com</a></p>
@@ -523,3 +572,5 @@
   </footer>
 
 </div>
+</body>
+</html>
